@@ -164,9 +164,9 @@ img.cards2 {
 
 .item .front, .item .back {
     position: absolute;
-    /*top: 0;
+    top: 0;
     left: 0;
-    width: 90%;
+    /*width: 90%;
     height: 90%;*/
     transition: .5s transform ease-in-out;
     backface-visibility: hidden;
@@ -180,9 +180,9 @@ img.cards2 {
 
 .item .back {
     transform: rotateY(-180deg);
-    z-index: 0;
-    position: absolute;
-    top: 0px;
+    /*z-index: 0;*/
+    /*position: absolute;
+    top: 0px;*/
 }
 
 
