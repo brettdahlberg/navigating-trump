@@ -73,6 +73,8 @@ html, body {
     max-height: 100%;
     border-style: solid;
     display: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 img.cards2 {
@@ -89,6 +91,18 @@ img.cards2 {
     background-color: red;
     text-align: center;
     margin: 0 auto;
+    bottom: 3px;
+    right: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.pres_seal {
+    max-width: 70px;
+    position: absolute;
+    left: 0px;
+    padding-top: 5px;
+    bottom: 0px;
 }
 
 .name {}
@@ -102,6 +116,55 @@ img.cards2 {
 
 .active {
     display: block;
+}
+
+.back {
+    z-index: 0;
+}
+
+.front {
+    z-index: 1000;
+    position: absolute;
+}
+
+.item .front, .item .back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 90%;
+    transition: .5s transform ease-in-out;
+    backface-visibility: hidden;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    /*border: black;*/
+    border-style: solid;
+    box-sizing: border-box;
+    background-color: #e8eaed;
+}
+
+.item .back {
+    transform: rotateY(-180deg);
+}
+
+.item {
+    position: relative;
+    float: left;
+    width: 50%;
+    padding-bottom: 60%;
+}
+
+.item.turn {
+    transform: rotateY(180deg) scaleX(-1);
+}
+
+.item.turn .front {
+    transform: rotateY(-180deg);
+}
+
+.item.turn .back {
+    transform: rotateY(0deg);
 }
 
 

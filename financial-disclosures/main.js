@@ -15,4 +15,13 @@ $(document).ready(function () {
 			$("." + filter).toggleClass("active");
 		}
 	});
+	$(".item").on("click", function (e) {
+		e.preventDefault();
+		console.log("clicked");
+		if (item.hasClass("turn")) {
+			item.removeClass("turn");
+		} else {
+			item.addClass("turn");
+		}
+	})
 });
