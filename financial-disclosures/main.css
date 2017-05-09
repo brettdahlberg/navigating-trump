@@ -118,42 +118,46 @@ img.cards2 {
     display: block;
 }
 
-.back {
+
+/*.back {
     z-index: 0;
 }
 
 .front {
     z-index: 1000;
     position: absolute;
-}
+}*/
 
 .item .front, .item .back {
     position: absolute;
-    top: 0;
+    /*top: 0;
     left: 0;
     width: 90%;
-    height: 90%;
+    height: 90%;*/
     transition: .5s transform ease-in-out;
     backface-visibility: hidden;
-    text-align: center;
+    /*text-align: center;*/
     padding: 20px;
     margin: 10px;
     /*border: black;*/
     border-style: solid;
     box-sizing: border-box;
-    background-color: #e8eaed;
 }
 
 .item .back {
     transform: rotateY(-180deg);
+    z-index: 0;
+    position: absolute;
+    top: 0px;
 }
 
-.item {
+
+/*.item {
     position: relative;
     float: left;
     width: 50%;
     padding-bottom: 60%;
-}
+}*/
 
 .item.turn {
     transform: rotateY(180deg) scaleX(-1);
