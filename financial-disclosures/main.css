@@ -67,6 +67,7 @@ html, body {
 .top {
     margin: 0 auto;
     text-align: center;
+    position: relative;
 }
 
 .top_image {
@@ -80,18 +81,21 @@ html, body {
     top: 27%;
     color: #ffffff;
     text-shadow: 1px 1px 2px black;
+    width: 100%;
 }
 
 .top_sub {
     position: absolute;
     top: 50%;
     color: #ffffff;
+    width: 100%;
 }
 
 .top_sub_2 {
     position: absolute;
     top: 60%;
     color: #ffffff;
+    width: 100%;
 }
 
 .cards {
