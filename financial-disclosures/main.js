@@ -15,13 +15,15 @@ $(document).ready(function () {
 			$("." + filter).toggleClass("active");
 		}
 	});
+
 	$(".item").on("click", function (e) {
-		e.preventDefault();
+
 		console.log("clicked");
+		var item = $(this);
 		if (item.hasClass("turn")) {
 			item.removeClass("turn");
 		} else {
 			item.addClass("turn");
 		}
-	})
+	});
 });
