@@ -7,7 +7,7 @@ $(document).ready(function () {
 
 		if (filter === "reset") {
 			console.log("hello world");
-			$(".dropdown").removeClass("active");
+			$("div").removeClass("active");
 
 		} else {
 			var button = $(this);
