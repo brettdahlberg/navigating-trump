@@ -99,22 +99,31 @@ html, body {
     width: 100%;
 }
 
+
+/*
 .cards {
-    position: relative;
-    border-width: thick;
-    border-color: #FF0000;
-    max-width: 100%;
-    display: block;
-    max-height: 100%;
-    border-style: solid;
-    display: none;
+    position: relative;*/
+
+
+/*border-width: thick;
+    border-color: #FF0000;*/
+
+
+/*max-width: 100%;
+    max-height: 100%;*/
+
+
+/*border-style: solid;*/
+
+
+/*display: none;
     margin-top: 10px;
     margin-bottom: 10px;
-}
+}*/
 
 img.cards2 {
     max-width: 100%;
-    position: relative;
+    /*position: relative;*/
 }
 
 .text-identifier {
@@ -144,18 +153,13 @@ img.cards2 {
     z-index: 2;
 }
 
-.name {}
 
-.cards.name_title {}
-
-.cards#kushner {
+/*.cards#kushner {
     position: relative;
     /*background-image: url("images/kushner.jpg");*/
-}
 
-.active {
-    display: block;
-}
+
+/*}*/
 
 
 /*.back {
@@ -167,6 +171,26 @@ img.cards2 {
     position: absolute;
 }*/
 
+.item {
+    position: relative;
+    /*.cards {
+        position: relative;
+        /*border-width: thick;
+        border-color: #FF0000;*/
+    max-width: 100%;
+    /*max-height: 100%;*/
+    /*border-style: solid;*/
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: none;
+    height: 100vh;
+}
+
+.item.active {
+    display: block;
+    /*position: relative;*/
+}
+
 .item .front, .item .back {
     position: absolute;
     top: 0;
@@ -177,12 +201,14 @@ img.cards2 {
     backface-visibility: hidden;
     /*text-align: center;*/
     padding: 4px;
-    margin: 10px;
+    /*margin: 10px;*/
     /*border: black;*/
     border-style: solid;
     box-sizing: border-box;
-    border-width: thick;
+    border-width: 2px;
     border-color: #FF0000;
+    height: 100%;
+    width: calc(100% - 2px);
 }
 
 .item .back {

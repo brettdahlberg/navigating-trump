@@ -27,7 +27,7 @@
         <!-- YOUR CONTENT GOES HERE -->
         <div class="top">
             <img src="images/trump_green.jpg" class="top_image" />
-            <h1 class="top_title">Trump's Millionaire's</h1>
+            <h1 class="top_title">Trump's Millionaires</h1>
             <h2 class="top_sub">There are <span class='numscroller' data-min='1' data-max='32' data-delay='3' data-increment='1'>32</span> millionaires in the Trump White House</h2>
             <h2 class="top_sub_2"> They own $<span class='numscroller' data-min='1' data-max='1000000000000' data-delay='5' data-increment='10000'>1000000000000</span> in assets</h2>
         </div>
@@ -35,27 +35,20 @@
             <button class="dropdown" data-filter="real_estate">Real estate </button>
             <button class="dropdown" data-filter="reset">Reset</button>
         </div>
+
+
         <div class="cards">
-            <div><img src="images/manton.jpg" id="anton" / class="cards2"></div>
-            <!-- Photo: Andrew Harrer/Bloomberg/Getty Images -->
-            <!--all photos are 900x1200-->
-            <div class="text-identifier">
-                <h1 class="name">Michael Anton</h1>
-                <h2 class="name_title">National Security Adviser</h1>
+            <div class="item">
+                <div class="front"><img src="images/raugustine2" id="augustine" />
+                    <!--https://twitter.com/reneaugustine?lang=en-->
+                    <img src="images/seal.jpg" class="pres_seal" />
+                    <div class="text-identifier">
+                        <h1 class="name">Rene Augustine</h1>
+                        <h2 class="name_title">Special Assistant to the President and Clearance Counsel</h2>
+                    </div>
+                </div>
+                <div class="back"></div>
             </div>
-          </div>
-        <div class="cards">
-          <div class="item">
-            <div class="front"><img src="images/raugustine2" id="augustine" />
-            <!--https://twitter.com/reneaugustine?lang=en-->
-              <img src="images/seal.jpg" class="pres_seal" />
-            <div class="text-identifier">
-              <h1 class="name">Rene Augustine</h1>
-              <h2 class="name_title">Special Assistant to the President and Clearance Counsel</h2>
-            </div>
-        </div>
-        <div class="back"></div>
-        </div>
         </div>
         <div class="cards">
             <div class="item">
@@ -106,41 +99,45 @@
                         <h2 class="name_title">Director of the National Economic Council</h2>
                     </div>
                 </div>
-                <div class="bacl"></div>
-            </div>
-        </div>
-        <div class="cards">
-            <div class="item">
-                <div class="front"><img src="images/kconway.jpg" id="kconway" class="cards2" />
-                    <!--photo by Gage Skidmore https://en.wikipedia.org/wiki/Kellyanne_Conway#/media/File:Kellyanne_Conway_by_Gage_Skidmore_3.jpg-->
-                    <img src="images/seal.jpg" class="pres_seal" />
-                    <div class="text-identifier">
-                        <h1 class="name">Kellyanne Conway</h1>
-                        <h2 class="name_title">Counselor to the President</h2>
-                    </div>
-                </div>
                 <div class="back"></div>
             </div>
         </div>
-        <div class="cards real_estate">
-            <div class="item">
-                <div class="front"><img src="images/rcordish.jpg" id="rcordish" class="cards2" />
 
-                    <img src="images/seal.jpg" class="pres_seal" />
+        <div class="item">
+            <div class="front"><img src="images/kconway.jpg" id="kconway" class="cards2" />
+                <!--photo by Gage Skidmore https://en.wikipedia.org/wiki/Kellyanne_Conway#/media/File:Kellyanne_Conway_by_Gage_Skidmore_3.jpg-->
+                <img src="images/seal.jpg" class="pres_seal" />
+                <div class="text-identifier">
+                    <h1 class="name">Kellyanne Conway</h1>
+                    <h2 class="name_title">Counselor to the President</h2>
+                </div>
+            </div>
+            <div class="back"></div>
+        </div>
+
+
+        <div class="item real_estate" id="cordish">
+            <div class="front"><img src="images/rcordish.jpg" id="rcordish" class="cards2" />
+
+                <img src="images/seal.jpg" class="pres_seal" />
+                <div class="text-identifier">
+                    <h1 class="name">Reed Cordish</h1>
+                    <h2 class="name">Assistant to the President for Intragovernmental and Technology Initiatives</h2>
+                </div>
+            </div>
+            <div class="back"></div>
+        </div>
+        <!--
+        <div class="cards">
+            <div class="item">
+                <div class="front"><img src="images/mdelrahim.jpg" id="mdelrahim" />
+
                     <div class="text-identifier">
-                        <h1 class="name">Reed Cordish</h1>
-                        <h2 class="name">Assistant to the President for Intragovernmental and Technology Initiatives</h2>
-                    </div>
+                        <h1 class="name">Makan Delrahim</h1>
+                        <h2 class="name_title">Deputy White House Counsel</h2></div>
                 </div>
                 <div class="back"></div>
             </div>
-        </div>
-        <div class="cards">
-            <div><img src="images/mdelrahim.jpg" id="mdelrahim" />
-            </div>
-            <div class="text-identifier">
-                <h1 class="name">Makan Delrahim</h1>
-                <h2 class="name_title">Deputy White House Counsel</h2></div>
         </div>
         <div class="cards">
             <div class="item">
@@ -156,10 +153,11 @@
                 </div>
                 <div class="back"></div>
             </div>
-        </div>
+        </div> -->
 
-        <div class="cards real_estate">
-            <div class="item">
+        <!-- <div class="cards real_estate"> -->
+        <div class="box">
+            <div class="item real_estate" id="kushner">
                 <div class="front"><img src="images/kushner.jpg" id="kushner" class="cards2" />
 
                     <img src="images/seal.jpg" class="pres_seal" />
@@ -172,6 +170,7 @@
                 <div class="back"><img src="images/kushner_back.jpg" class="cards2" /></div>
             </div>
         </div>
+        <!-- </div> -->
 
 
         <!--This is the beginning of the template, do not enter code here, copy/paste to do so-->
@@ -188,8 +187,10 @@
                 <div class="back"><img src="images/" class="cards2" /></div>
             </div>
         </div>
+
         <!--END TEMPLATE HERE-->
 
+        <!--closes div everything else-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 
 
