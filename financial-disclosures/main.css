@@ -209,7 +209,7 @@ button.active {
     /*border: black;*/
     border-style: solid;
     box-sizing: border-box;
-    border-width: 2px;
+    border-width: 10px;
     border-color: #FF0000;
     height: 100%;
     width: calc(100% - 2px);
@@ -240,6 +240,292 @@ button.active {
 
 .item.turn .back {
     transform: rotateY(0deg);
+}
+
+#augustine {
+    background-image: url("images/raugustine2.jpg");
+    background-size: 125% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#augustine_back {
+    background-image: url("images/raugustine_back.jpg");
+    background-size: 125% 100%;
+    background-position: center;
+}
+
+#bannon {
+    background-image: url("images/sbannon.jpg");
+    background-size: 125% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#bannon_back {
+    background-image: url("images/sbannon_back.jpg");
+    background-size: 125% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#jbash {
+    background-image: url("images/jbash.jpg");
+    background-size: 125% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#jbash_back {
+    background-image: url("images/jbash_back.jpg");
+    background-size: 125% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#zbash {
+    background-image: url("images/zbash.jpg");
+    background-size: 125% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#zbash_back {
+    background-image: url("images/zbash_back.jpg");
+    background-size: 125% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#gcohn {
+    background-image: url("images/gcohn.jpg");
+    background-size: 125% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#gcohn_back {
+    background-image: url("images/gcohn_back.jpg");
+    background-size: 125% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#kconway {
+    background-image: url("mages/kconway.jpg");
+    background-size: 125% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#kconway_back {
+    background-image: url("mages/kconway_back.jpg");
+    background-size: 125% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#rcordish {
+    background-image: url("images/rcordish.jpg");
+    background-size: 125% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#mdelrahim {
+    background-image: url("mages/mdelrahim.jpg");
+    background-size: 125% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#mdelrahim_back {
+    background-image: url("mages/mdelrahim_back.jpg");
+    background-size: 125% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#jdestefano {
+    background-image: url("jdestefano.jpg");
+    background-size: 125% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#jdestefano_back {
+    background-image: url("jdestefano.jpg");
+    background-size: 125% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#udhillon {
+    background-image: url("images/udhillon.jpg");
+    background-size: 125% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#udhillon_back {
+    background-image: url("images/udhillon_back.jpg");
+    background-size: 125% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#jeisenberg {
+    background-image: url("images/jeisenberg.jpg");
+    background-size: 125% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#jeisenberg_back {
+    background-image: url("images/jeisenberg_back.jpg");
+    background-size: 125% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#bepshteyn {
+    background-image: url("images/bepshteyn_back.jpg");
+    background-size: 125% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#bepshteyn_back {
+    background-image: url("images/bepshteyn_back.jpg");
+    background-size: 125% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#jgreenblatt {
+    background-image: url("images/jgreenblatt.jpg");
+    background-size: 125% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#jgreenblatt_back {
+    background-image: url("images/jgreenblatt_back.jpg");
+    background-size: 125% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#kushner_front {
+    background-image: url("images/kushner.jpg");
+    background-size: 125% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#jhahn {
+    background-image: url("images/jhahn.jpg");
+    background-size: 125% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#jhahn_back {
+    background-image: url("images/jhahn_back.jpg");
+    background-size: 125% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#kushner_back {
+    background-image: url("images/kushner_back.jpg");
+    background-size: 125% 100%;
+    background-size: auto;
+    background-position: center;
+}
+
+#cliddell {
+    background-image: url("images/cliddell.jpg");
+    background-size: 125% 100%;
+    background-size: auto;
+    background-position: center;
+}
+
+#cliddell_back {
+    background-image: url("images/cliddell_back.jpg");
+    background-size: 125% 100%;
+    background-size: auto;
+    background-position: center;
+}
+
+#kmcfarland {
+    background-image: url("images/kmcfarland.jpg");
+    background-size: 125% 100%;
+    background-size: auto;
+    background-position: center;
+}
+
+#kmcfarland_back {
+    background-image: url("images/kmcfarland_back.jpg");
+    background-size: 125% 100%;
+    background-size: auto;
+    background-position: center;
+}
+
+#jschultz {
+    background-image: url("images/jschultz.jpg");
+    background-size: 125% 100%;
+    background-size: auto;
+    background-position: center;
+}
+
+#jschultz_back {
+    background-image: url("images/jschultz_back.jpg");
+    background-size: 125% 100%;
+    background-size: auto;
+    background-position: center;
+}
+
+#rshah {
+    background-image: url("images/rshah.jpg");
+    background-size: 125% 100%;
+    background-size: auto;
+    background-position: center;
+}
+
+#rshah_back {
+    background-image: url("images/rshah_back.jpg");
+    background-size: 125% 100%;
+    background-size: auto;
+    background-position: center;
+}
+
+#mshort {
+    background-image: url("images/mshort.jpg");
+    background-size: 125% 100%;
+    background-size: auto;
+    background-position: center;
+}
+
+#mshort_back {
+    background-image: url("images/mshort_back.jpg");
+    background-size: 125% 100%;
+    background-size: auto;
+    background-position: center;
+}
+
+#sspicer {
+    background-image: url("images/mshort.jpg");
+    background-size: 125% 100%;
+    background-size: auto;
+    background-position: center;
+}
+
+#sspicer_back {
+    background-image: url("images/mshort_back.jpg");
+    background-size: 125% 100%;
+    background-size: auto;
+    background-position: center;
 }
 
 
