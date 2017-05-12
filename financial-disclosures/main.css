@@ -191,6 +191,10 @@ img.cards2 {
     /*position: relative;*/
 }
 
+button.active {
+    background-color: #98FB98;
+}
+
 .item .front, .item .back {
     position: absolute;
     top: 0;
@@ -243,6 +247,11 @@ img.cards2 {
 
 @media(min-width: 681px) {
     /* Any adjustments for tablets and larger go here. Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
+}
+
+body {
+    max-width: 620px;
+    margin: 0 auto;
 }
 
 @media(min-width: 729px) {
