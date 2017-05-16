@@ -4,11 +4,15 @@ $(document).ready(function () {
 	// });
 
 
-	$(".dropdown").on("click", function (e) {
+	$("button").on("click", function (e) {
 		e.preventDefault();
 		console.log("button clicked");
-		var button = $(this);
-		var filter = button.data("filter");
+		var clicked = $(this);
+		var chosenfilter = clicked.data("filter");
+
+
+
+		$(".item.active").removeClass("active");
 
 		if (filter === "reset") {
 			console.log("Hello, William.");
@@ -16,9 +20,10 @@ $(document).ready(function () {
 			$("button").removeClass("active");
 
 		} else {
-			var button = $(this);
-			$(this).toggleClass("active")
-			var filter = button.data("filter");
+
+			var this_filter = $(this);
+			var filter = this_filter.data("filter");
+			this_filter.toggleClass("active");
 			$("." + filter).toggleClass("active");
 		}
 	});
