@@ -1,4 +1,9 @@
 $(document).ready(function () {
+	// $(".numscroller").onLoad(function formatNumber(num) {
+	// 	return num.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, “$1, “)
+	// });
+
+
 	$(".dropdown").on("click", function (e) {
 		e.preventDefault();
 		console.log("button clicked");
@@ -17,6 +22,8 @@ $(document).ready(function () {
 			$("." + filter).toggleClass("active");
 		}
 	});
+
+
 
 	$(".item").on("click", function (e) {
 

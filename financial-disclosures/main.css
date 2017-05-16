@@ -68,6 +68,7 @@ html, body {
     margin: 0 auto;
     text-align: center;
     position: relative;
+    font-family: sans-serif;
 }
 
 .top_image {
@@ -89,6 +90,7 @@ html, body {
     position: absolute;
     top: 50%;
     color: #ffffff;
+    text-shadow: 1px 1px 2px black;
     width: 100%;
 }
 
@@ -96,7 +98,47 @@ html, body {
     position: absolute;
     top: 60%;
     color: #ffffff;
+    text-shadow: 1px 1px 2px black;
     width: 100%;
+}
+
+.byline {
+    position: absolute;
+    bottom: 2%;
+    color: #ffffff;
+    text-shadow: 1px 1px 2px black;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+}
+
+.text {
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: sans-serif;
+}
+
+.first_letter {
+    font-size: 2.5em;
+}
+
+button {
+    font-size: 1.5em;
+    border-style: solid;
+    border-color: black;
+    background-color: #e7e7e7;
+    color: black;
+}
+
+.container {}
+
+.show_text {
+    display: none;
+}
+
+.show_text.active {
+    display: block;
 }
 
 
@@ -186,7 +228,7 @@ img.cards2 {
     margin-top: 10px;
     margin-bottom: 10px;
     display: none;
-    height: 100vh;
+    height: 94vh;
 }
 
 .item.active {
@@ -246,10 +288,23 @@ button.active {
 }
 
 .text_back {
+    position: absolute;
     margin-top: 50px;
     margin-left: 5px;
     margin-right: 2px;
     font-size: 1em;
+    /*background: rgba(255, 0, 0, 0.1);*/
+    z-index: 500;
+    color: black;
+}
+
+.background {
+    position: absolute;
+    background-color: #fff;
+    opacity: .5;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
 }
 
 #augustine {
@@ -337,6 +392,13 @@ button.active {
 
 #rcordish {
     background-image: url("images/rcordish.jpg");
+    background-size: 125% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#rcordish_back {
+    background-image: url("images/rcordish_back.jpg");
     background-size: 125% 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -544,6 +606,16 @@ button.active {
 /* Tablet/Desktop overrides */
 
 @media(min-width: 681px) {
+    .item {
+        position: relative;
+        max-width: 52%;
+        /* max-height: 100%; */
+        /* border-style: solid; */
+        margin-top: 10px;
+        margin-bottom: 10px;
+        display: none;
+        height: 45vh;
+    }
     /* Any adjustments for tablets and larger go here. Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
 }
 
