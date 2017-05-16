@@ -179,14 +179,14 @@ img.cards2 {
     background-color: #568ea3;
     text-align: center;
     margin: 0 auto;
-    bottom: -1px;
+    bottom: 0px;
     right: 0px;
     padding-left: 5px;
     padding-right: 0px;
     text-align: right;
     margin-right: 0px;
     width: 95%;
-    height: 14%;
+    height: auto;
 }
 
 .pres_seal {
@@ -305,6 +305,8 @@ button.active {
     height: 100%;
     width: 100%;
     z-index: 1;
+    left: 0;
+    top: 0;
 }
 
 #augustine {
@@ -541,6 +543,20 @@ button.active {
 
 #kmcfarland_back {
     background-image: url("images/kmcfarland_back.jpg");
+    background-size: 125% 100%;
+    background-size: auto;
+    background-position: center;
+}
+
+#dpowell {
+    background-image: url("images/dpowell.jpg");
+    background-size: 125% 100%;
+    background-size: auto;
+    background-position: center;
+}
+
+#dpowell_back {
+    background-image: url("images/dpowell_back.jpg");
     background-size: 125% 100%;
     background-size: auto;
     background-position: center;
