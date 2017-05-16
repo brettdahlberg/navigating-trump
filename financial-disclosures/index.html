@@ -10,9 +10,9 @@
         <title>Trump's Millionaires</title>
 
         <link rel=“icon” type=“image/png” href=“images/favicon.ico” />
-        <link rel="stylesheet" type="text/css" href="main.css">
-        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-
+        <link rel="stylesheet" type="text/css" href="main.css" />
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" />
         <!-- Your styles should be called here -->
 
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -29,7 +29,8 @@
             <!-- <img src="images/trump_green.jpg" class="top_image" /> -->
             <h1 class="top_title">Trump's Millionaires</h1>
             <h2 class="top_sub">There are at least <span class='numscroller' data-min='1' data-max='22' data-delay='3' data-increment='1'>22</span> millionaires<br>in the Trump White House</h2>
-            <h2 class="top_sub_2"> They own $<span class='numscroller' data-min='1' data-max='532829535' data-delay='5' data-increment='1000000'>532829535</span> in assets</h2>
+            <h2 class="top_sub_2"> They own $<span class='numscroller' data-min='1' data-max='543' data-delay='5' data-increment='1'>000</span>,<span class='numscroller' data-min='1' data-max='344' data-delay='5' data-increment='1'>000</span>,<span class='numscroller' data-min='1' data-max='570' data-delay='5' data-increment='1'>000</span> in assets</h2>
+            <!-- 543,344,570 -->
             <p class="byline">By Brett Dahlberg and William Mathis</p>
         </div>
         <div class="text">
@@ -43,10 +44,25 @@
             <button class="dropdown" data-filter="realestate">Real estate</button>
             <button class="dropdown" data-filter="stock">Stocks</button>
             <button class="dropdown" data-filter="bond">Bonds</button>
-            <button class="dropdown" data-filter="reset">Reset</button>
+            <button class="dropdown" data-filter="bankaccount">Bank accounts</button>
+            <button class="dropdown" data-filter="moneymarket">Money Market accounts</button>
+            <button class="dropdown" data-filter="privateequity">Private Equity</button>
+            <!-- <button class="dropdown" data-filter="privateequity"></button> -->
+            <button class="dropdown" data-filter="directinvestment">Direct Investment</button>
+            <button class="dropdown" data-filter="company">Company</button>
+            <button class="dropdown" data-filter="healthcare">Healthcare</button>
+            <button class="dropdown" data-filter="manufacturing">Manufacturing</button>
+            <button class="dropdown" data-filter="Energy">Energy</button>
+            <button class="dropdown" data-filter="foreign">Foreign assets</button>
+
+            <!-- <button class="dropdown" data-filter="bond"></button> -->
+
+            <!-- bankaccount realestate stock bond moneymarket privateequity venturecapital company directinvestment promissorynote government telecom manufacturing healthcare pharmaceutical energy coal solar membership foreign foreignbankaccount foreignstock companybond governmentbond -->
+            <br><button class="dropdown" data-filter="reset">Reset</button>
         </div>
         <div class="container">
             <div class="text realestate show_text">
+                <h1>Real estate holdings</h1>
                 <p>Real estate holdings present one of the most complex potential conflicts of interest for members of the administration. Many of their real estate holdings are owned by opaque limited liability corporations. The financial disclosure forms
                     do not disclose two important facts about those holdings, who else has a stake in them and to whom the entity owes money.</p>
                 <p>"It’s critical to know who owns the rest of the company because that’s an economic dependency that could affect their official duty," said Richard Painter, who served as the chief ethics lawyer for the George W. Bush administration from
@@ -143,7 +159,7 @@
                             </tr>
 
                         </table>
-
+                        <p class="photo_cred"></p>
                     </div>
                     <div class="background"></div>
                 </div>
@@ -968,7 +984,7 @@
 
 
                         <h1 class="name">Julia Hahn</h1>
-                        <h2 class="name_title">Deputy Policy Strategist</h2>
+                        <h2 class="name_title">Deputy Policy Strategist</h2><br>
                         <table style=“width:100%“>
                             <tr>
                                 <th>Asset</th>
@@ -1531,31 +1547,25 @@
                             </tr>
                         </table>
                     </div>
-                    <div class="bac                <td>Bonds</td>
-                                <td>1</td>
-                                <td>$50,001</td>
-                                <td>$100,000</td>
-                            </tr>
-                        </table>
-                    </div>
-                    <div class=" background "></div>
+
+                    <div class="background"></div>
                 </div>
             </div>
 
-            <div class="item bankaccount realestate stock ">
-                <div class="front " id="rshah ">
-                    <img src="images/seal.png " class="pres_seal " />
-                    <div class="text-identifier ">
+            <div class="item bankaccount realestate stock">
+                <div class="front" id="rshah">
+                    <img src="images/seal.png" class="pres_seal" />
+                    <div class="text-identifier">
 
-                        <h1 class="name ">Raj Shah</h1>
+                        <h1 class="name">Raj Shah</h1>
                         <h2 class="name_title ">Deputy Communications Director</h2>
                     </div>
                 </div>
-                <div class="back " id="rshah_back ">
-                    <div class="text_back ">
+                <div class="back" id="rshah_back">
+                    <div class="text_back">
 
 
-                        <h1 class="name ">Raj Shah</h1>
+                        <h1 class="name">Raj Shah</h1>
                         <h2 class="name_title ">Deputy Communications Director</h2>
                         <table style=“width:100%“>
                             <tr>
@@ -1584,26 +1594,26 @@
                             </tr>
                         </table>
                     </div>
-                    <div class="background "></div>
+                    <div class="background"></div>
                 </div>
             </div>
 
 
-            <div class="item bankaccount realestate stock bond moneymarket company manufacturing healthcare pharmaceutical energy foreign foreignstock foreignbond foreignrealestate companybond ">
-                <div class="front " id="mshort ">
-                    <img src="images/seal.png " class="pres_seal " />
-                    <div class="text-identifier ">
+            <div class="item bankaccount realestate stock bond moneymarket company manufacturing healthcare pharmaceutical energy foreign foreignstock foreignbond foreignrealestate companybond">
+                <div class="front" id="mshort">
+                    <img src="images/seal.png" class="pres_seal" />
+                    <div class="text-identifier">
 
-                        <h1 class="name ">Marc Short</h1>
-                        <h2 class="name_title ">Director of Legislative Affairs</h2>
+                        <h1 class="name">Marc Short</h1>
+                        <h2 class="name_title">Director of Legislative Affairs</h2>
                     </div>
                 </div>
-                <div class="back " id="mshort_back ">
-                    <div class="text_back ">
+                <div class="back" id="mshort_back">
+                    <div class="text_back">
 
 
-                        <h1 class="name ">Marc Short</h1>
-                        <h2 class="name_title ">Director of Legislative Affairs</h2>
+                        <h1 class="name">Marc Short</h1>
+                        <h2 class="name_title">Director of Legislative Affairs</h2>
                         <table style=“width:100%“>
                             <tr>
                                 <th>Asset</th>
@@ -1704,25 +1714,25 @@
                             </tr>
                         </table>
                     </div>
-                    <div class="background "></div>
+                    <div class="background"></div>
                 </div>
             </div>
 
-            <div class="item bankaccount realestate stock bond moneymarket government telecom healthcare energy foreign foreignstock foreignbond governmentbond ">
-                <div class="front " id="sspicer ">
-                    <img src="images/seal.png " class="pres_seal " />
-                    <div class="text-identifier ">
+            <div class="item bankaccount realestate stock bond moneymarket government telecom healthcare energy foreign foreignstock foreignbond governmentbond">
+                <div class="front" id="sspicer">
+                    <img src="images/seal.png" class="pres_seal" />
+                    <div class="text-identifier">
 
-                        <h1 class="name ">Sean Spicer</h1>
-                        <h2 class="name_title ">Press Secretary</h2>
+                        <h1 class="name">Sean Spicer</h1>
+                        <h2 class="name_title">Press Secretary</h2>
                     </div>
                 </div>
-                <div class="back " id="sspicer_back ">
-                    <div class="text_back ">
+                <div class="back" id="sspicer_back">
+                    <div class="text_back">
 
 
-                        <h1 class="name ">Sean Spicer</h1>
-                        <h2 class="name_title ">Press Secretary</h2>
+                        <h1 class="name">Sean Spicer</h1>
+                        <h2 class="name_title">Press Secretary</h2>
                         <table style=“width:100%“>
                             <tr>
                                 <th>Asset</th>
@@ -1804,14 +1814,14 @@
                             </tr>
                         </table>
                     </div>
-                    <div class="background "></div>
+                    <div class="background"></div>
                 </div>
             </div>
 
             <!--This is the beginning of the template, do not enter code here, copy/paste to do so-->
 
-            <div class="item ">
-                <div class="front " id=" ">
+            <!-- <div class="item">
+                <div class="front" id=" ">
                     <img src="images/seal.png " class="pres_seal " />
                     <div class="text-identifier ">
 
@@ -1820,7 +1830,7 @@
                     </div>
                 </div>
                 <div class="back " id="_back "></div>
-            </div>
+            </div> -->
 
         </div>
         <div class="text ">

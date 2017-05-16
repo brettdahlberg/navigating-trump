@@ -1,4 +1,4 @@
-                                        /*
+                                                                                                                /*
 This is a good layout for a mobile-first CSS template.
 Following this flow will minimize the number of styles you need to write and will ensure you are thinking, designing and developing mobile-first.
 Most of your styles get written like standard CSS, but for your mobile presentation. Generally speaking, a good mobile presention will stretch out nicely for larger screens.
@@ -6,438 +6,449 @@ Most of your styles get written like standard CSS, but for your mobile presentat
 Sometimes, when we stretch out to larger screens, we need to make minor tweaks for the larger devices -- you can make these tweaks in the tablet media query, or if the issue exists on desktop only, the desktop media query.
 You will find this is far easier than the opposite task of using CSS to cram your desktop experience into a mobile device.
 */
-                                    /* http://meyerweb.com/eric/tools/css/reset/
+                                                                                                            /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
-                                    /* THIS IS A RESET
+                                                                                                            /* THIS IS A RESET
 DO NOT EDIT THIS STUFF */
 
-                                    html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
-                                        margin: 0;
-                                        padding: 0;
-                                        border: 0;
-                                        vertical-align: baseline;
-                                    }
-                                    /* HTML5 display-role reset for older browsers */
+                                                                                                            html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+                                                                                                                margin: 0;
+                                                                                                                padding: 0;
+                                                                                                                border: 0;
+                                                                                                                vertical-align: baseline;
+                                                                                                            }
+                                                                                                            /* HTML5 display-role reset for older browsers */
 
-                                    article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-                                        display: block;
-                                    }
+                                                                                                            article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+                                                                                                                display: block;
+                                                                                                            }
 
-                                    body {
-                                        line-height: 1;
-                                    }
+                                                                                                            body {
+                                                                                                                line-height: 1;
+                                                                                                            }
 
-                                    ol, ul {
-                                        list-style: none;
-                                    }
+                                                                                                            ol, ul {
+                                                                                                                list-style: none;
+                                                                                                            }
 
-                                    blockquote, q {
-                                        quotes: none;
-                                    }
+                                                                                                            blockquote, q {
+                                                                                                                quotes: none;
+                                                                                                            }
 
-                                    blockquote:before, blockquote:after, q:before, q:after {
-                                        content: '';
-                                        content: none;
-                                    }
+                                                                                                            blockquote:before, blockquote:after, q:before, q:after {
+                                                                                                                content: '';
+                                                                                                                content: none;
+                                                                                                            }
 
-                                    table {
-                                        border-collapse: collapse;
-                                        border-spacing: 0;
-                                    }
-                                    /* BEGIN YOUR STYLES HERE */
-                                    /* Start your base/mobile styles here */
+                                                                                                            table {
+                                                                                                                border-collapse: collapse;
+                                                                                                                border-spacing: 0;
+                                                                                                            }
+                                                                                                            /* BEGIN YOUR STYLES HERE */
+                                                                                                            /* Start your base/mobile styles here */
 
-                                    html, body {
-                                        /* Sets default font-size to 16px, ensuring 1em = 16px; */
-                                        font-size: 16px;
-                                    }
+                                                                                                            html, body {
+                                                                                                                /* Sets default font-size to 16px, ensuring 1em = 16px; */
+                                                                                                                font-size: 16px;
+                                                                                                            }
 
-                                    .top {
-                                        margin: 0 auto;
-                                        text-align: center;
-                                        position: relative;
-                                        font-family: sans-serif;
-                                        background-image: url("images/trump_green.jpg");
-                                        background-size: 111% 100%;
-                                        background-position: center;
-                                        background-repeat: no-repeat;
-                                        height: 95vh;
-                                    }
-                                    /*.top_image {
+                                                                                                            .top {
+                                                                                                                margin: 0 auto;
+                                                                                                                text-align: center;
+                                                                                                                position: relative;
+                                                                                                                font-family: sans-serif;
+                                                                                                                background-image: url("images/trump_green.jpg");
+                                                                                                                background-size: 111% 100%;
+                                                                                                                background-position: center;
+                                                                                                                background-repeat: no-repeat;
+                                                                                                                height: 95vh;
+                                                                                                            }
+                                                                                                            /*.top_image {
                         position: relative;
                         max-width: 100%;
                         height: 90vh;
                         overflow-x: hidden;
                     }*/
 
-                                    .top_title {
-                                        position: absolute;
-                                        top: 27%;
-                                        color: #ffffff;
-                                        text-shadow: 1px 1px 2px black;
-                                        width: 100%;
-                                    }
+                                                                                                            .top_title {
+                                                                                                                position: absolute;
+                                                                                                                top: 27%;
+                                                                                                                color: #ffffff;
+                                                                                                                text-shadow: 1px 1px 2px black;
+                                                                                                                width: 100%;
+                                                                                                            }
 
-                                    .top_sub {
-                                        position: absolute;
-                                        top: 50%;
-                                        color: #ffffff;
-                                        text-shadow: 1px 1px 2px black;
-                                        width: 100%;
-                                    }
+                                                                                                            .top_sub {
+                                                                                                                position: absolute;
+                                                                                                                top: 50%;
+                                                                                                                color: #ffffff;
+                                                                                                                text-shadow: 1px 1px 2px black;
+                                                                                                                width: 100%;
+                                                                                                            }
 
-                                    .top_sub_2 {
-                                        position: absolute;
-                                        top: 60%;
-                                        color: #ffffff;
-                                        text-shadow: 1px 1px 2px black;
-                                        width: 100%;
-                                    }
+                                                                                                            .top_sub_2 {
+                                                                                                                position: absolute;
+                                                                                                                top: 60%;
+                                                                                                                color: #ffffff;
+                                                                                                                text-shadow: 1px 1px 2px black;
+                                                                                                                width: 100%;
+                                                                                                            }
 
-                                    .byline {
-                                        position: absolute;
-                                        bottom: 2%;
-                                        color: #ffffff;
-                                        text-shadow: 1px 1px 2px black;
-                                        margin: 0 auto;
-                                        text-align: center;
-                                        width: 100%;
-                                    }
+                                                                                                            .byline {
+                                                                                                                position: absolute;
+                                                                                                                bottom: 2%;
+                                                                                                                color: #ffffff;
+                                                                                                                text-shadow: 1px 1px 2px black;
+                                                                                                                margin: 0 auto;
+                                                                                                                text-align: center;
+                                                                                                                width: 100%;
+                                                                                                            }
 
-                                    .text {
-                                        margin-top: 10px;
-                                        margin-left: 5px;
-                                        margin-right: 5px;
-                                        font-family: sans-serif;
-                                    }
+                                                                                                            p {
+                                                                                                                line-height: 1.5em;
+                                                                                                                margin-top: 10px;
+                                                                                                            }
 
-                                    .first_letter {
-                                        font-size: 2.5em;
-                                    }
+                                                                                                            .text {
+                                                                                                                margin-top: 10px;
+                                                                                                                margin-left: 5px;
+                                                                                                                margin-right: 5px;
+                                                                                                                font-family: sans-serif;
+                                                                                                            }
 
-                                    button {
-                                        font-size: 1.5em;
-                                        border-style: solid;
-                                        border-color: black;
-                                        background-color: #e7e7e7;
-                                        color: black;
-                                    }
+                                                                                                            .first_letter {
+                                                                                                                font-size: 2.5em;
+                                                                                                            }
 
-                                    .container {}
+                                                                                                            button {
+                                                                                                                font-size: 1.1em;
+                                                                                                                border-style: solid;
+                                                                                                                border-color: black;
+                                                                                                                background-color: #e7e7e7;
+                                                                                                                color: black;
+                                                                                                                margin: 3px;
+                                                                                                            }
 
-                                    .show_text {
-                                        display: none;
-                                    }
+                                                                                                            .container {}
 
-                                    .show_text.active {
-                                        display: block;
-                                    }
-                                    /*
-.cards {
-    position: relative;*/
-                                    /*border-width: thick;
-    border-color: #FF0000;*/
-                                    /*max-width: 100%;
-    max-height: 100%;*/
-                                    /*border-style: solid;*/
-                                    /*display: none;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}*/
+                                                                                                            .show_text {
+                                                                                                                display: none;
+                                                                                                            }
 
-                                    img.cards2 {
-                                        max-width: 100%;
-                                        /*position: relative;*/
-                                    }
+                                                                                                            .show_text.active {
+                                                                                                                display: block;
+                                                                                                            }
+                                                                                                            /*.cards {
+                                                                            position: relative;
+                                                                            border-width: thick;
+                                                                            border-color: #FF0000;
+                                                                            max-width: 100%;
+                                                                            max-height: 100%;
+                                                                            border-style: solid;
+                                                                            display: none;
+                                                                            margin-top: 10px;
+                                                                            margin-bottom: 10px;
+                                                                        }*/
 
-                                    .text-identifier {
-                                        position: absolute;
-                                        background-color: white;
-                                        border-color: #ffffff;
-                                        border-top-width: 1px;
-                                        border-left-width: 1px;
-                                        color: white;
-                                        border-style: solid;
-                                        background-color: #568ea3;
-                                        text-align: center;
-                                        margin: 0 auto;
-                                        bottom: 0px;
-                                        right: 0px;
-                                        padding-left: 5px;
-                                        padding-right: 0px;
-                                        text-align: right;
-                                        margin-right: 0px;
-                                        width: 95%;
-                                        height: auto;
-                                    }
+                                                                                                            img.cards2 {
+                                                                                                                max-width: 100%;
+                                                                                                                /*position: relative;*/
+                                                                                                            }
 
-                                    .pres_seal {
-                                        max-width: 114px;
-                                        position: absolute;
-                                        left: 6px;
-                                        /*padding-top: 5px;*/
-                                        top: 6px;
-                                        z-index: 2;
-                                    }
-                                    /*.cards#kushner {
-    position: relative;
-    /*background-image: url("images/kushner.jpg");*/
-                                    /*}*/
-                                    /*.back {
-    z-index: 0;
-}
+                                                                                                            .text-identifier {
+                                                                                                                position: absolute;
+                                                                                                                background-color: white;
+                                                                                                                border-color: #ffffff;
+                                                                                                                border-top-width: 1px;
+                                                                                                                border-left-width: 1px;
+                                                                                                                color: white;
+                                                                                                                border-style: solid;
+                                                                                                                background-color: #568ea3;
+                                                                                                                text-align: center;
+                                                                                                                margin: 0 auto;
+                                                                                                                bottom: 0px;
+                                                                                                                right: 0px;
+                                                                                                                padding-left: 5px;
+                                                                                                                padding-right: 0px;
+                                                                                                                text-align: right;
+                                                                                                                margin-right: 0px;
+                                                                                                                width: 95%;
+                                                                                                                height: auto;
+                                                                                                            }
 
-.front {
-    z-index: 1000;
-    position: absolute;
-}*/
+                                                                                                            .pres_seal {
+                                                                                                                max-width: 114px;
+                                                                                                                position: absolute;
+                                                                                                                left: 6px;
+                                                                                                                /*padding-top: 5px;*/
+                                                                                                                top: 6px;
+                                                                                                                z-index: 2;
+                                                                                                            }
 
-                                    .item {
-                                        position: relative;
-                                        /*.cards {
-        position: relative;
-        /*border-width: thick;
-        border-color: #FF0000;*/
-                                        max-width: 100%;
-                                        /*max-height: 100%;*/
-                                        /*border-style: solid;*/
-                                        margin-top: 10px;
-                                        margin-bottom: 10px;
-                                        display: none;
-                                        height: 94vh;
-                                    }
+                                                                                                            .item {
+                                                                                                                position: relative;
+                                                                                                                /*.cards {*/
+                                                                                                                /*position: relative;*/
+                                                                                                                /*border-width: thick;*/
+                                                                                                                /*border-color: #FF0000;*/
+                                                                                                                max-width: 100%;
+                                                                                                                /*max-height: 100%;*/
+                                                                                                                /*border-style: solid;*/
+                                                                                                                margin-top: 10px;
+                                                                                                                margin-bottom: 10px;
+                                                                                                                display: none;
+                                                                                                                height: 94vh;
+                                                                                                                font-family: 'Open Sans', sans-serif;
+                                                                                                            }
 
-                                    .item.active {
-                                        display: block;
-                                        /*position: relative;*/
-                                    }
+                                                                                                            .item.active {
+                                                                                                                display: block;
+                                                                                                                /*position: relative;*/
+                                                                                                            }
 
-                                    button.active {
-                                        background-color: #581908;
-                                    }
+                                                                                                            button.active {
+                                                                                                                background-color: #581908;
+                                                                                                            }
 
-                                    .item .front, .item .back {
-                                        position: absolute;
-                                        top: 0;
-                                        left: 0;
-                                        /*width: 90%;
-    height: 90%;*/
-                                        transition: .5s transform ease-in-out;
-                                        backface-visibility: hidden;
-                                        /*text-align: center;*/
-                                        padding: 4px;
-                                        /*margin: 10px;*/
-                                        /*border: black;*/
-                                        border-style: solid;
-                                        box-sizing: border-box;
-                                        border-width: 10px;
-                                        border-color: #568ea3;
-                                        height: 100%;
-                                        width: calc(100% - 2px);
-                                    }
+                                                                                                            .item .front, .item .back {
+                                                                                                                position: absolute;
+                                                                                                                top: 0;
+                                                                                                                left: 0;
+                                                                                                                /*width: 90%;*/
+                                                                                                                /*    height: 90%;*/
+                                                                                                                transition: .5s transform ease-in-out;
+                                                                                                                backface-visibility: hidden;
+                                                                                                                /*text-align: center;*/
+                                                                                                                padding: 4px;
+                                                                                                                /*margin: 10px;*/
+                                                                                                                /*border: black;*/
+                                                                                                                border-style: solid;
+                                                                                                                box-sizing: border-box;
+                                                                                                                border-width: 10px;
+                                                                                                                border-color: #568ea3;
+                                                                                                                height: 100%;
+                                                                                                                width: calc(100% - 2px);
+                                                                                                            }
 
-                                    .item .back {
-                                        transform: rotateY(-180deg);
-                                        /*z-index: 0;*/
-                                        /*position: absolute;
+                                                                                                            .item .back {
+                                                                                                                transform: rotateY(-180deg);
+                                                                                                                /*z-index: 0;*/
+                                                                                                                /*position: absolute;
     top: 0px;*/
-                                    }
-                                    /*.item {
+                                                                                                            }
+                                                                                                            /*.item {
     position: relative;
     float: left;
     width: 50%;
     padding-bottom: 60%;
 }*/
 
-                                    .item.turn {
-                                        transform: rotateY(180deg) scaleX(-1);
-                                    }
+                                                                                                            .item.turn {
+                                                                                                                transform: rotateY(180deg) scaleX(-1);
+                                                                                                            }
 
-                                    .item.turn .front {
-                                        transform: rotateY(-180deg);
-                                    }
+                                                                                                            .item.turn .front {
+                                                                                                                transform: rotateY(-180deg);
+                                                                                                            }
 
-                                    .item.turn .back {
-                                        transform: rotateY(0deg);
-                                    }
+                                                                                                            .item.turn .back {
+                                                                                                                transform: rotateY(0deg);
+                                                                                                            }
 
-                                    .text_back {
-                                        position: absolute;
-                                        margin-top: 50px;
-                                        margin-left: 5px;
-                                        margin-right: 2px;
-                                        font-size: 1em;
-                                        /*background: rgba(255, 0, 0, 0.1);*/
-                                        z-index: 500;
-                                        color: black;
-                                    }
+                                                                                                            .text_back {
+                                                                                                                position: absolute;
+                                                                                                                margin-top: 50px;
+                                                                                                                margin-left: 5px;
+                                                                                                                margin-right: 2px;
+                                                                                                                font-size: 1em;
+                                                                                                                /*background: rgba(255, 0, 0, 0.1);*/
+                                                                                                                z-index: 500;
+                                                                                                                color: black;
+                                                                                                            }
 
-                                    .background {
-                                        position: absolute;
-                                        background-color: #fff;
-                                        opacity: .5;
-                                        height: 100%;
-                                        width: 100%;
-                                        z-index: 1;
-                                        left: 0;
-                                        top: 0;
-                                    }
+                                                                                                            .photo_cred {
+                                                                                                                bottom: 0;
+                                                                                                            }
 
-                                    #augustine {
-                                        background-image: url("images/raugustine2.jpg");
-                                        background-size: 125% 100%;
-                                        background-position: center;
-                                        background-repeat: no-repeat;
-                                    }
+                                                                                                            .background {
+                                                                                                                position: absolute;
+                                                                                                                background-color: #fff;
+                                                                                                                opacity: .5;
+                                                                                                                height: 100%;
+                                                                                                                width: 100%;
+                                                                                                                z-index: 1;
+                                                                                                                left: 0;
+                                                                                                                top: 0;
+                                                                                                            }
 
-                                    #augustine_back {
-                                        background-image: url("images/raugustine_back.jpg");
-                                        background-size: 125% 100%;
-                                        background-position: center;
-                                    }
+                                                                                                            th, td {
+                                                                                                                border-bottom: 1px solid #ddd;
+                                                                                                            }
 
-                                    #bannon {
-                                        background-image: url("images/sbannon.jpg");
-                                        background-size: 125% 100%;
-                                        background-position: center;
-                                        background-repeat: no-repeat;
-                                    }
+                                                                                                            th, td {
+                                                                                                                padding: 15px;
+                                                                                                                text-align: left;
+                                                                                                            }
 
-                                    #bannon_back {
-                                        background-image: url("images/sbannon_back.jpg");
-                                        background-size: 125% 100%;
-                                        background-position: center;
-                                        background-repeat: no-repeat;
-                                    }
+                                                                                                            tr#cliddell_back {
+                                                                                                                font-size: 1em;
+                                                                                                            }
 
-                                    #jbash {
-                                        background-image: url("images/jbash-original.jpg");
-                                        background-size: 125% 100%;
-                                        background-position: center;
-                                        background-repeat: no-repeat;
-                                    }
+                                                                                                            #augustine {
+                                                                                                                background-image: url("images/raugustine2.jpg");
+                                                                                                                background-size: 125% 100%;
+                                                                                                                background-position: center;
+                                                                                                                background-repeat: no-repeat;
+                                                                                                            }
 
-                                    #jbash_back {
-                                        background-image: url("images/jbash_back.jpg");
-                                        background-size: 125% 100%;
-                                        background-position: center;
-                                        background-repeat: no-repeat;
-                                    }
+                                                                                                            #augustine_back {
+                                                                                                                background-image: url("images/raugustine_back.jpg");
+                                                                                                                background-size: 125% 100%;
+                                                                                                                background-position: center;
+                                                                                                            }
 
-                                    #zbash {
-                                        background-image: url("images/zbash.jpg");
-                                        background-size: 125% 100%;
-                                        background-position: center;
-                                        background-repeat: no-repeat;
-                                    }
+                                                                                                            #bannon {
+                                                                                                                background-image: url("images/sbannon.jpg");
+                                                                                                                background-size: 125% 100%;
+                                                                                                                background-position: center;
+                                                                                                                background-repeat: no-repeat;
+                                                                                                            }
 
-                                    #zbash_back {
-                                        background-image: url("images/zbash_back.jpg");
-                                        background-size: 125% 100%;
-                                        background-position: center;
-                                        background-repeat: no-repeat;
-                                    }
+                                                                                                            #bannon_back {
+                                                                                                                background-image: url("images/sbannon_back.jpg");
+                                                                                                                background-size: 125% 100%;
+                                                                                                                background-position: center;
+                                                                                                                background-repeat: no-repeat;
+                                                                                                            }
 
-                                    #gcohn {
-                                        background-image: url("images/gcohn.jpg");
-                                        background-size: 125% 100%;
-                                        background-position: center;
-                                        background-repeat: no-repeat;
-                                    }
+                                                                                                            #jbash {
+                                                                                                                background-image: url("images/jbash-original.jpg");
+                                                                                                                background-size: 125% 100%;
+                                                                                                                background-position: center;
+                                                                                                                background-repeat: no-repeat;
+                                                                                                            }
 
-                                    #gcohn_back {
-                                        background-image: url("images/gcohn_back.jpg");
-                                        background-size: 125% 100%;
-                                        background-position: center;
-                                        background-repeat: no-repeat;
-                                    }
+                                                                                                            #jbash_back {
+                                                                                                                background-image: url("images/jbash_back.jpg");
+                                                                                                                background-size: 125% 100%;
+                                                                                                                background-position: center;
+                                                                                                                background-repeat: no-repeat;
+                                                                                                            }
 
-                                    #kconway {
-                                        background-image: url("images/kconway.jpg");
-                                        background-size: 125% 100%;
-                                        background-position: center;
-                                        background-repeat: no-repeat;
-                                    }
+                                                                                                            #zbash {
+                                                                                                                background-image: url("images/zbash.jpg");
+                                                                                                                background-size: 125% 100%;
+                                                                                                                background-position: center;
+                                                                                                                background-repeat: no-repeat;
+                                                                                                            }
 
-                                    #kconway_back {
-                                        background-image: url("images/kconway_back.jpg");
-                                        background-size: 125% 100%;
-                                        background-position: center;
-                                        background-repeat: no-repeat;
-                                    }
+                                                                                                            #zbash_back {
+                                                                                                                background-image: url("images/zbash_back.jpg");
+                                                                                                                background-size: 125% 100%;
+                                                                                                                background-position: center;
+                                                                                                                background-repeat: no-repeat;
+                                                                                                            }
 
-                                    #rcordish {
-                                        background-image: url("images/rcordish.jpg");
-                                        background-size: 125% 100%;
-                                        background-position: center;
-                                        background-repeat: no-repeat;
-                                    }
+                                                                                                            #gcohn {
+                                                                                                                background-image: url("images/gcohn.jpg");
+                                                                                                                background-size: 125% 100%;
+                                                                                                                background-position: center;
+                                                                                                                background-repeat: no-repeat;
+                                                                                                            }
 
-                                    #rcordish_back {
-                                        background-image: url("images/rcordish_back.jpg");
-                                        background-size: 125% 100%;
-                                        background-position: center;
-                                        background-repeat: no-repeat;
-                                    }
+                                                                                                            #gcohn_back {
+                                                                                                                background-image: url("images/gcohn_back.jpg");
+                                                                                                                background-size: 125% 100%;
+                                                                                                                background-position: center;
+                                                                                                                background-repeat: no-repeat;
+                                                                                                            }
 
-                                    #mdelrahim {
-                                        background-image: url("images/mdelrahim.jpg");
-                                        background-size: 125% 100%;
-                                        background-position: center;
-                                        background-repeat: no-repeat;
-                                    }
+                                                                                                            #kconway {
+                                                                                                                background-image: url("images/kconway.jpg");
+                                                                                                                background-size: 125% 100%;
+                                                                                                                background-position: center;
+                                                                                                                background-repeat: no-repeat;
+                                                                                                            }
 
-                                    #mdelrahim_back {
-                                        background-image: url("images/mdelrahim_back.jpg");
-                                        background-size: 125% 100%;
-                                        background-position: center;
-                                        background-repeat: no-repeat;
-                                    }
+                                                                                                            #kconway_back {
+                                                                                                                background-image: url("images/kconway_back.jpg");
+                                                                                                                background-size: 125% 100%;
+                                                                                                                background-position: center;
+                                                                                                                background-repeat: no-repeat;
+                                                                                                            }
 
-                                    #jdestefano {
-                                        background-image: url("jdestefano.jpg");
-                                        background-size: 125% 100%;
-                                        background-position: center;
-                                        background-repeat: no-repeat;
-                                    }
+                                                                                                            #rcordish {
+                                                                                                                background-image: url("images/rcordish.jpg");
+                                                                                                                background-size: 125% 100%;
+                                                                                                                background-position: center;
+                                                                                                                background-repeat: no-repeat;
+                                                                                                            }
 
-                                    #jdestefano_back {
-                                        background-image: url("jdestefano.jpg");
-                                        background-size: 125% 100%;
-                                        background-position: center;
-                                        background-repeat: no-repeat;
-                                    }
+                                                                                                            #rcordish_back {
+                                                                                                                background-image: url("images/rcordish_back.jpg");
+                                                                                                                background-size: 125% 100%;
+                                                                                                                background-position: center;
+                                                                                                                background-repeat: no-repeat;
+                                                                                                            }
 
-                                    #udhillon {
-                                        background-image: url("images/udhillon.jpg");
-                                        background-size: 125% 100%;
-                                        background-position: center;
-                                        background-repeat: no-repeat;
-                                    }
+                                                                                                            #mdelrahim {
+                                                                                                                background-image: url("images/mdelrahim.jpg");
+                                                                                                                background-size: 125% 100%;
+                                                                                                                background-position: center;
+                                                                                                                background-repeat: no-repeat;
+                                                                                                            }
 
-                                    #udhillon_back {
-                                        background-image: url("images/udhillon_back.jpg");
-                                        background-size: 125% 100%;
-                                        background-position: center;
-                                        background-repeat: no-repeat;
-                                    }
+                                                                                                            #mdelrahim_back {
+                                                                                                                background-image: url("images/mdelrahim_back.jpg");
+                                                                                                                background-size: 125% 100%;
+                                                                                                                background-position: center;
+                                                                                                                background-repeat: no-repeat;
+                                                                                                            }
 
-                                    #jeisenberg {
-                                        background-image: url("images/jeisenberg.jpg");
-                                        background-size: 125% 100%;
-                                        background-position: center;
-                                        background-repeat: no-repeat;
-                                    }
+                                                                                                            #jdestefano {
+                                                                                                                background-image: url("jdestefano.jpg");
+                                                                                                                background-size: 125% 100%;
+                                                                                                                background-position: center;
+                                                                                                                background-repeat: no-repeat;
+                                                                                                            }
 
-                                    #jeisenberg_back {
-                                        background-image: url("images/jeisenberg_back.jpg");
-                                        background-size: 125% 100%;
-                                        background-position: center;
-                                        background-repeat: no-repeat;
-                                    }
-                                    /*
+                                                                                                            #jdestefano_back {
+                                                                                                                background-image: url("jdestefano.jpg");
+                                                                                                                background-size: 125% 100%;
+                                                                                                                background-position: center;
+                                                                                                                background-repeat: no-repeat;
+                                                                                                            }
+
+                                                                                                            #udhillon {
+                                                                                                                background-image: url("images/udhillon.jpg");
+                                                                                                                background-size: 125% 100%;
+                                                                                                                background-position: center;
+                                                                                                                background-repeat: no-repeat;
+                                                                                                            }
+
+                                                                                                            #udhillon_back {
+                                                                                                                background-image: url("images/udhillon_back.jpg");
+                                                                                                                background-size: 125% 100%;
+                                                                                                                background-position: center;
+                                                                                                                background-repeat: no-repeat;
+                                                                                                            }
+
+                                                                                                            #jeisenberg {
+                                                                                                                background-image: url("images/jeisenberg.jpg");
+                                                                                                                background-size: 125% 100%;
+                                                                                                                background-position: center;
+                                                                                                                background-repeat: no-repeat;
+                                                                                                            }
+
+                                                                                                            #jeisenberg_back {
+                                                                                                                background-image: url("images/jeisenberg_back.jpg");
+                                                                                                                background-size: 125% 100%;
+                                                                                                                background-position: center;
+                                                                                                                background-repeat: no-repeat;
+                                                                                                            }
+                                                                                                            /*
 #bepshteyn {
     background-image: url("images/bepshteyn_back.jpg");
     background-size: 125% 100%;
@@ -452,242 +463,261 @@ DO NOT EDIT THIS STUFF */
     background-repeat: no-repeat;
 }*/
 
-                                    #jgreenblatt {
-                                        background-image: url("images/jgreenblatt.jpg");
-                                        background-size: 125% 100%;
-                                        background-position: center;
-                                        background-repeat: no-repeat;
-                                    }
+                                                                                                            #jgreenblatt {
+                                                                                                                background-image: url("images/jgreenblatt.jpg");
+                                                                                                                background-size: 125% 100%;
+                                                                                                                background-position: center;
+                                                                                                                background-repeat: no-repeat;
+                                                                                                            }
 
-                                    #jgreenblatt_back {
-                                        background-image: url("images/jgreenblatt_back.jpg");
-                                        background-size: 125% 100%;
-                                        background-position: center;
-                                        background-repeat: no-repeat;
-                                    }
+                                                                                                            #jgreenblatt_back {
+                                                                                                                background-image: url("images/jgreenblatt_back.jpg");
+                                                                                                                background-size: 125% 100%;
+                                                                                                                background-position: center;
+                                                                                                                background-repeat: no-repeat;
+                                                                                                            }
 
-                                    #kushner_front {
-                                        background-image: url("images/kushner.jpg");
-                                        background-size: 125% 100%;
-                                        background-position: center;
-                                        background-repeat: no-repeat;
-                                    }
+                                                                                                            #kushner_front {
+                                                                                                                background-image: url("images/kushner.jpg");
+                                                                                                                background-size: 125% 100%;
+                                                                                                                background-position: center;
+                                                                                                                background-repeat: no-repeat;
+                                                                                                            }
 
-                                    #jhahn {
-                                        background-image: url("images/jhahn.jpg");
-                                        background-size: 125% 100%;
-                                        background-position: center;
-                                        background-repeat: no-repeat;
-                                    }
+                                                                                                            #jhahn {
+                                                                                                                background-image: url("images/jhahn.jpg");
+                                                                                                                background-size: 125% 100%;
+                                                                                                                background-position: center;
+                                                                                                                background-repeat: no-repeat;
+                                                                                                            }
 
-                                    #jhahn_back {
-                                        background-image: url("images/jhahn_back.jpg");
-                                        background-size: 125% 100%;
-                                        background-position: center;
-                                        background-repeat: no-repeat;
-                                    }
+                                                                                                            #jhahn_back {
+                                                                                                                background-image: url("images/jhahn_back.jpg");
+                                                                                                                background-size: 125% 100%;
+                                                                                                                background-position: center;
+                                                                                                                background-repeat: no-repeat;
+                                                                                                            }
 
-                                    #gkatsas {
-                                        background-image: url("images/gkatsas.jpg");
-                                        background-size: 125% 100%;
-                                        background-position: center;
-                                        background-repeat: no-repeat;
-                                    }
+                                                                                                            #gkatsas {
+                                                                                                                background-image: url("images/gkatsas.jpg");
+                                                                                                                background-size: 125% 100%;
+                                                                                                                background-position: center;
+                                                                                                                background-repeat: no-repeat;
+                                                                                                            }
 
-                                    #gkatsas_back {
-                                        background-image: url("images/gkatsas_back.jpg");
-                                        background-size: 125% 100%;
-                                        background-position: center;
-                                        background-repeat: no-repeat;
-                                    }
+                                                                                                            #gkatsas_back {
+                                                                                                                background-image: url("images/gkatsas_back.jpg");
+                                                                                                                background-size: 125% 100%;
+                                                                                                                background-position: center;
+                                                                                                                background-repeat: no-repeat;
+                                                                                                            }
 
-                                    #kushner_back {
-                                        background-image: url("images/kushner_back.jpg");
-                                        background-size: 125% 100%;
-                                        background-position: center;
-                                        background-repeat: no-repeat;
-                                    }
+                                                                                                            #kushner_back {
+                                                                                                                background-image: url("images/kushner_back.jpg");
+                                                                                                                background-size: 125% 100%;
+                                                                                                                background-position: center;
+                                                                                                                background-repeat: no-repeat;
+                                                                                                            }
 
-                                    #cliddell {
-                                        background-image: url("images/cliddell.jpg");
-                                        background-size: 125% 100%;
-                                        background-position: center;
-                                        background-repeat: no-repeat;
-                                    }
+                                                                                                            #cliddell {
+                                                                                                                background-image: url("images/cliddell.jpg");
+                                                                                                                background-size: 125% 100%;
+                                                                                                                background-position: center;
+                                                                                                                background-repeat: no-repeat;
+                                                                                                            }
 
-                                    #cliddell_back {
-                                        background-image: url("images/cliddell_back.jpg");
-                                        background-size: 125% 100%;
-                                        background-position: center;
-                                        background-repeat: no-repeat;
-                                    }
+                                                                                                            #cliddell_back {
+                                                                                                                background-image: url("images/cliddell_back.jpg");
+                                                                                                                background-size: 125% 100%;
+                                                                                                                background-position: center;
+                                                                                                                background-repeat: no-repeat;
+                                                                                                            }
 
-                                    #kmcfarland {
-                                        background-image: url("images/kmcfarland.jpg");
-                                        background-size: 125% 100%;
-                                        background-position: center;
-                                        background-repeat: no-repeat;
-                                    }
+                                                                                                            #kmcfarland {
+                                                                                                                background-image: url("images/kmcfarland.jpg");
+                                                                                                                background-size: 125% 100%;
+                                                                                                                background-position: center;
+                                                                                                                background-repeat: no-repeat;
+                                                                                                            }
 
-                                    #kmcfarland_back {
-                                        background-image: url("images/kmcfarland_back.jpg");
-                                        background-size: 125% 100%;
-                                        background-position: center;
-                                        background-repeat: no-repeat;
-                                    }
+                                                                                                            #kmcfarland_back {
+                                                                                                                background-image: url("images/kmcfarland_back.jpg");
+                                                                                                                background-size: 125% 100%;
+                                                                                                                background-position: center;
+                                                                                                                background-repeat: no-repeat;
+                                                                                                            }
 
-                                    #dpowell {
-                                        background-image: url("images/dpowell.jpg");
-                                        background-size: 125% 100%;
-                                        background-position: center;
-                                        background-repeat: no-repeat;
-                                    }
+                                                                                                            #dpowell {
+                                                                                                                background-image: url("images/dpowell.jpg");
+                                                                                                                background-size: 125% 100%;
+                                                                                                                background-position: center;
+                                                                                                                background-repeat: no-repeat;
+                                                                                                            }
 
-                                    #dpowell_back {
-                                        background-image: url("images/dpowell_back.jpg");
-                                        background-size: 125% 100%;
-                                        background-position: center;
-                                        background-repeat: no-repeat;
-                                    }
+                                                                                                            #dpowell_back {
+                                                                                                                background-image: url("images/dpowell_back.jpg");
+                                                                                                                background-size: 125% 100%;
+                                                                                                                background-position: center;
+                                                                                                                background-repeat: no-repeat;
+                                                                                                            }
 
-                                    #jschultz {
-                                        background-image: url("images/jschultz.jpg");
-                                        background-size: 125% 100%;
-                                        background-position: center;
-                                        background-repeat: no-repeat;
-                                    }
+                                                                                                            #jschultz {
+                                                                                                                background-image: url("images/jschultz.jpg");
+                                                                                                                background-size: 125% 100%;
+                                                                                                                background-position: center;
+                                                                                                                background-repeat: no-repeat;
+                                                                                                            }
 
-                                    #jschultz_back {
-                                        background-image: url("images/jschultz_back.jpg");
-                                        background-size: 125% 100%;
-                                        background-position: center;
-                                        background-repeat: no-repeat;
-                                    }
+                                                                                                            #jschultz_back {
+                                                                                                                background-image: url("images/jschultz_back.jpg");
+                                                                                                                background-size: 125% 100%;
+                                                                                                                background-position: center;
+                                                                                                                background-repeat: no-repeat;
+                                                                                                            }
 
-                                    #rshah {
-                                        background-image: url("images/rshah.jpg");
-                                        background-size: 125% 100%;
-                                        background-position: center;
-                                        background-repeat: no-repeat;
-                                    }
+                                                                                                            #rshah {
+                                                                                                                background-image: url("images/rshah.jpg");
+                                                                                                                background-size: 125% 100%;
+                                                                                                                background-position: center;
+                                                                                                                background-repeat: no-repeat;
+                                                                                                            }
 
-                                    #rshah_back {
-                                        background-image: url("images/rshah_back.jpg");
-                                        background-size: 125% 100%;
-                                        background-position: center;
-                                        background-repeat: no-repeat;
-                                    }
+                                                                                                            #rshah_back {
+                                                                                                                background-image: url("images/rshah_back.jpg");
+                                                                                                                background-size: 125% 100%;
+                                                                                                                background-position: center;
+                                                                                                                background-repeat: no-repeat;
+                                                                                                            }
 
-                                    #mshort {
-                                        background-image: url("images/mshort.jpg");
-                                        background-size: 125% 100%;
-                                        background-position: center;
-                                        background-repeat: no-repeat;
-                                    }
+                                                                                                            #mshort {
+                                                                                                                background-image: url("images/mshort.jpg");
+                                                                                                                background-size: 125% 100%;
+                                                                                                                background-position: center;
+                                                                                                                background-repeat: no-repeat;
+                                                                                                            }
 
-                                    #mshort_back {
-                                        background-image: url("images/mshort_back.jpg");
-                                        background-size: 125% 100%;
-                                        background-position: center;
-                                        background-repeat: no-repeat;
-                                    }
+                                                                                                            #mshort_back {
+                                                                                                                background-image: url("images/mshort_back.jpg");
+                                                                                                                background-size: 125% 100%;
+                                                                                                                background-position: center;
+                                                                                                                background-repeat: no-repeat;
+                                                                                                            }
 
-                                    #sspicer {
-                                        background-image: url("images/sspicer.jpg");
-                                        background-size: 125% 100%;
-                                        background-position: center;
-                                        background-repeat: no-repeat;
-                                    }
+                                                                                                            #sspicer {
+                                                                                                                background-image: url("images/sspicer.jpg");
+                                                                                                                background-size: 125% 100%;
+                                                                                                                background-position: center;
+                                                                                                                background-repeat: no-repeat;
+                                                                                                            }
 
-                                    #sspicer_back {
-                                        background-image: url("images/sspicer_back.jpg");
-                                        background-size: 125% 100%;
-                                        background-position: center;
-                                        background-repeat: no-repeat;
-                                    }
-                                    /* Tablet/Desktop overrides */
+                                                                                                            #sspicer_back {
+                                                                                                                background-image: url("images/sspicer_back.jpg");
+                                                                                                                background-size: 125% 100%;
+                                                                                                                background-position: center;
+                                                                                                                background-repeat: no-repeat;
+                                                                                                            }
+                                                                                                            /* Tablet/Desktop overrides */
 
-                                    @media(min-width: 681px) {
-                                        .item {
-                                            position: relative;
-                                            width: 52%;
-                                            /* max-height: 100%; */
-                                            /* border-style: solid; */
-                                            margin-top: 10px;
-                                            margin-bottom: 10px;
-                                            display: none;
-                                            height: 45vh;
-                                            float: left;
-                                        }
-                                        /* Any adjustments for tablets and larger go here. Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
-                                    }
+                                                                                                            @media(min-width: 681px) {
+                                                                                                                .item {
+                                                                                                                    position: relative;
+                                                                                                                    width: 52%;
+                                                                                                                    /* max-height: 100%; */
+                                                                                                                    /* border-style: solid; */
+                                                                                                                    margin-top: 10px;
+                                                                                                                    margin-bottom: 10px;
+                                                                                                                    display: none;
+                                                                                                                    height: 45vh;
+                                                                                                                    float: left;
+                                                                                                                }
+                                                                                                                /* Any adjustments for tablets and larger go here. Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
+                                                                                                            }
 
-                                    body {
-                                        max-width: 620px;
-                                        margin: 0 auto;
-                                    }
+                                                                                                            body {
+                                                                                                                max-width: 620px;
+                                                                                                                margin: 0 auto;
+                                                                                                            }
 
-                                    @media(min-width: 729px) {
-                                        /* Any adjustments for desktop and larger go here. Note these styles will be applied to anything 729px or larger -- so desktop */
-                                        .item {
-                                            position: relative;
-                                            width: 300px;
-                                            /* max-height: 100%; */
-                                            /* border-style: solid; */
-                                            margin-top: 10px;
-                                            margin-bottom: 10px;
-                                            display: none;
-                                            height: 67vh;
-                                            float: left;
-                                        }
-                                        background-repeat: no-repeat;
-                                    }
-
-                                    #sspicer {
-                                        background-image: url("images/sspicer.jpg");
-                                        background-size: 125% 100%;
-                                        background-position: center;
-                                        background-repeat: no-repeat;
-                                    }
-
-                                    #sspicer_back {
-                                        background-image: url("images/sspicer_back.jpg");
-                                        background-size: 125% 100%;
-                                        background-position: center;
-                                        background-repeat: no-repeat;
-                                    }
-                                    /* Tablet/Desktop overrides */
-
-                                    @media(min-width: 681px) {
-                                        .item {
-                                            position: relative;
-                                            width: 52%;
-                                            /* max-height: 100%; */
-                                            /* border-style: solid; */
-                                            margin-top: 10px;
-                                            margin-bottom: 10px;
-                                            display: none;
-                                            height: 45vh;
-                                            float: left;
-                                        }
-                                        /* Any adjustments for tablets and larger go here. Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
-                                    }
-
-                                    body {
-                                        max-width: 620px;
-                                        margin: 0 auto;
-                                    }
-
-                                    @media(min-width: 729px) {
-                                        /* Any adjustments for desktop and larger go here. Note these styles will be applied to anything 729px or larger -- so desktop */
-                                        .item {
-                                            position: relative;
-                                            width: 300px;
-                                            /* max-height: 100%; */
-                                            /* border-style: solid; */
-                                            margin-top: 10px;
-                                            margin-bottom: 10px;
-                                            display: none;
-                                            height: 67vh;
-                                            float: left;
-                                        }
+                                                                                                            @media(min-width: 729px) {
+                                                                                                                /* Any adjustments for desktop and larger go here. Note these styles will be applied to anything 729px or larger -- so desktop */
+                                                                                                                .item {
+                                                                                                                    position: relative;
+                                                                                                                    width: 300px;
+                                                                                                                    /* max-height: 100%; */
+                                                                                                                    /* border-style: solid; */
+                                                                                                                    margin-top: 10px;
+                                                                                                                    margin-bottom: 10px;
+                                                                                                                    display: none;
+                                                                                                                    height: 67vh;
+                                                                                                                    float: left;
+                                                                                                                    background-repeat: no-repeat;
+                                                                                                                }
+                                                                                                                #sspicer {
+                                                                                                                    background-image: url("images/sspicer.jpg");
+                                                                                                                    background-size: 125% 100%;
+                                                                                                                    background-position: center;
+                                                                                                                    background-repeat: no-repeat;
+                                                                                                                }
+                                                                                                                #sspicer_back {
+                                                                                                                    background-image: url("images/sspicer_back.jpg");
+                                                                                                                    background-size: 125% 100%;
+                                                                                                                    background-position: center;
+                                                                                                                    background-repeat: no-repeat;
+                                                                                                                }
+                                                                                                                html, body {
+                                                                                                                    /* Sets default font-size to 16px, ensuring 1em = 16px; */
+                                                                                                                    font-size: 16px;
+                                                                                                                }
+                                                                                                                /* Tablet/Desktop overrides */
+                                                                                                                @media(min-width: 681px) {
+                                                                                                                    .item {
+                                                                                                                        position: relative;
+                                                                                                                        width: 52%;
+                                                                                                                        /* max-height: 100%; */
+                                                                                                                        /* border-style: solid; */
+                                                                                                                        margin-top: 10px;
+                                                                                                                        margin-bottom: 10px;
+                                                                                                                        display: none;
+                                                                                                                        height: 45vh;
+                                                                                                                        float: left;
+                                                                                                                    }
+                                                                                                                    button {
+                                                                                                                        font-size: 1.5em;
+                                                                                                                        margin: 5px;
+                                                                                                                    }
+                                                                                                                    /* Any adjustments for tablets and larger go here. Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
+                                                                                                                }
+                                                                                                                /*}
+                                                                    @media(min-width: 729px) {
+                                                                        /* Any adjustments for desktop and larger go here. Note these styles will be applied to anything 729px or larger -- so desktop */
+                                                                                                                /* Any adjustments for tablets and larger go here. Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
+                                                                                                                @media(min-width: 729px) {
+                                                                                                                    /* Any adjustments for desktop and larger go here. Note these styles will be applied to anything 729px or larger -- so desktop */
+                                                                                                                    .item {
+                                                                                                                        position: relative;
+                                                                                                                        width: 300px;
+                                                                                                                        /* max-height: 100%; */
+                                                                                                                        /* border-style: solid; */
+                                                                                                                        margin-top: 10px;
+                                                                                                                        margin-bottom: 10px;
+                                                                                                                        display: none;
+                                                                                                                        height: 67vh;
+                                                                                                                        float: left;
+                                                                                                                    }
+                                                                                                                }
+                                                                                                                /* Any adjustments for tablets and larger go here. Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
+                                                                                                                /*
+                                                            @media(min-width: 729px) {
+                                                                /* Any adjustments for desktop and larger go here. Note these styles will be applied to anything 729px or larger -- so desktop */
+                                                                                                                /*.item {
+                                                        position: relative;
+                                                        width: 300px;
+                                                        /* max-height: 100%; */
+                                                                                                                /* border-style: solid; */
+                                                                                                                /*margin-top: 10px;
+                                                        margin-bottom: 10px;
+                                                        display: none;
+                                                        height: 67vh;
+                                                        float: left;
+                                                    }
+                                                }*/

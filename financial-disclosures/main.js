@@ -7,22 +7,25 @@ $(document).ready(function () {
 	$("button").on("click", function (e) {
 		e.preventDefault();
 		console.log("button clicked");
-		var clicked = $(this);
-		var chosenfilter = clicked.data("filter");
+		// var clicked = $(this);
+		// var chosenfilter = clicked.data("filter");
+		//
 
 
-
-		$(".item.active").removeClass("active");
+		// $(".item.active").removeClass("active");
 
 		if (filter === "reset") {
 			console.log("Hello, William.");
 			$("div").removeClass("active");
+			$("button").removeClass("active");
 			$("button").removeClass("active");
 
 		} else {
 
 			var this_filter = $(this);
 			var filter = this_filter.data("filter");
+			$("div").removeClass("active");
+			$("button").removeClass("active");
 			this_filter.toggleClass("active");
 			$("." + filter).toggleClass("active");
 		}
