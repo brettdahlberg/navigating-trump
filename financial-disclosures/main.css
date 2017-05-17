@@ -717,64 +717,36 @@ background-repeat: no-repeat;
 
 /* Tablet/Desktop overrides */
 
-@media(min-width: 681px) {
+
+/*@media(min-width: 681px) {
     .item {
         position: relative;
         width: 52%;
         /* max-height: 100%; */
-        /* border-style: solid; */
-        margin-top: 10px;
-        margin-bottom: 10px;
-        display: none;
-        height: 45vh;
-        float: left;
-    }
-    .top_title {
-        font-size: 3.8em;
-    }
-    /* Any adjustments for tablets and larger go here. Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
-}
 
+
+/* border-style: solid; */
+
+
+/*margin-top: 10px;
+margin-bottom: 10px;
+display: none;
+height: 45vh;
+float: left;
+
+}*/
+
+
+/* Any adjustments for tablets and larger go here. Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
+
+
+}
 body {
     max-width: 620px;
     margin: 0 auto;
 }
 
-@media(min-width: 729px) {
-    /* Any adjustments for desktop and larger go here. Note these styles will be applied to anything 729px or larger -- so desktop */
-    .item {
-        position: relative;
-        width: 300px;
-        /* max-height: 100%; */
-        /* border-style: solid; */
-        margin-top: 10px;
-        margin-bottom: 10px;
-        display: none;
-        height: 67vh;
-        float: left;
-        background-repeat: no-repeat;
-    }
-    #sspicer {
-        background-image: url("images/sspicer.jpg");
-        background-size: 125% 100%;
-        background-position: center;
-        background-repeat: no-repeat;
-    }
-    #sspicer_back {
-        background-image: url("images/sspicer_back.jpg");
-        background-size: 125% 100%;
-        background-position: center;
-        background-repeat: no-repeat;
-    }
-    html, body {
-        /* Sets default font-size to 16px, ensuring 1em = 16px; */
-        font-size: 16px;
-    }
-}
-
-
 /* Tablet/Desktop overrides */
-
 @media(min-width: 681px) {
     .item {
         position: relative;
@@ -786,22 +758,39 @@ body {
         display: none;
         height: 47vh;
         float: left;
+        display: inline-block;
     }
+
+    .container {
+        display: inline-block;
+        max-width: 700px;
+    }
+
     button {
         font-size: 1.5em;
         margin: 5px;
     }
+
+    .top {
+        background-size: 129% 159%;
+        height: 95vh;
+        overflow: hidden;
+        margin-left: -74px;
+        margin-right: -74px;
+    }
+
+    .top_title {
+        font-size: 4.8em;
+    }
     /* Any adjustments for tablets and larger go here. Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
 }
 
-
 /* Any adjustments for desktop and larger go here. Note these styles will be applied to anything 729px or larger -- so desktop */
 
-
 /* Any adjustments for tablets and larger go here. Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
-
 @media(min-width: 729px) {
     /* Any adjustments for desktop and larger go here. Note these styles will be applied to anything 729px or larger -- so desktop */
+
     .item {
         position: relative;
         width: 309px;
@@ -810,7 +799,16 @@ body {
         margin-top: 10px;
         margin-bottom: 10px;
         display: none;
-        height: 47vh;
+        height: 400px;
         float: left;
+    }
+
+    .top {
+        background-size: 129% 159%;
+        background-size: 84% 168%;
+        height: 95vh;
+        overflow: hidden;
+        margin-left: -74px;
+        margin-right: -74px;
     }
 }
