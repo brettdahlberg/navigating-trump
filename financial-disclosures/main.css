@@ -173,6 +173,7 @@ button {
 
 .show_text {
     display: none;
+    font-family: sans-serif;
 }
 
 .show_text.active {
