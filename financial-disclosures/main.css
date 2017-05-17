@@ -710,6 +710,10 @@ background-repeat: no-repeat;
     background-repeat: no-repeat;
 }
 
+#bottom_text {
+    display: inline-block;
+}
+
 
 /* Tablet/Desktop overrides */
 
@@ -724,6 +728,9 @@ background-repeat: no-repeat;
         display: none;
         height: 45vh;
         float: left;
+    }
+    .top_title {
+        font-size: 3.8em;
     }
     /* Any adjustments for tablets and larger go here. Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
 }
@@ -771,13 +778,13 @@ body {
 @media(min-width: 681px) {
     .item {
         position: relative;
-        width: 52%;
+        width: 309px;
         /* max-height: 100%; */
         /* border-style: solid; */
         margin-top: 10px;
         margin-bottom: 10px;
         display: none;
-        height: 45vh;
+        height: 47vh;
         float: left;
     }
     button {
@@ -797,13 +804,13 @@ body {
     /* Any adjustments for desktop and larger go here. Note these styles will be applied to anything 729px or larger -- so desktop */
     .item {
         position: relative;
-        width: 300px;
+        width: 309px;
         /* max-height: 100%; */
         /* border-style: solid; */
         margin-top: 10px;
         margin-bottom: 10px;
         display: none;
-        height: 67vh;
+        height: 47vh;
         float: left;
     }
 }
