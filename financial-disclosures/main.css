@@ -54,7 +54,7 @@ table {
     width: 100%;
     max-width: 400px;
     margin: 0 auto;
-    /* overflow-y: scroll; */
+    overflow-y: scroll;
 }
 
 
@@ -93,7 +93,7 @@ overflow-x: hidden;
     top: 27%;
     color: #ffffff;
     text-shadow: 1px 1px 2px black;
-    width: 100%;
+    width: 98%;
     /*padding-left: .5em;
     padding-right: .5em;*/
 }
@@ -103,7 +103,7 @@ overflow-x: hidden;
     top: 50%;
     color: #ffffff;
     text-shadow: 2px 2px 3px black;
-    width: 100%;
+    width: 95%;
     padding-left: .5em;
 }
 
@@ -112,7 +112,7 @@ overflow-x: hidden;
     top: 68%;
     color: #ffffff;
     text-shadow: 2px 2px 3px black;
-    width: 100%;
+    width: 95%;
     padding-left: .5em;
 }
 
@@ -177,22 +177,6 @@ button {
     border-color: #e7e7e7;
     border-style: solid;
     background-color: #e7e7e7
-}
-
-.column1 {
-    width: 45%;
-}
-
-.column2 {
-    width: 5%;
-}
-
-.column3 {
-    width: 25%;
-}
-
-.column4 {
-    width: 25%;
 }
 
 .show_text {
@@ -327,11 +311,14 @@ padding-bottom: 60%;
 }
 
 .text_back {
-    position: absolute;
+    position: relative;
     width: 95%;
-    margin-top: 30px;
-    margin-left: 5px;
-    margin-right: 8px;
+    max-width: 400px;
+    /* margin-top: 30px; */
+    /* margin-left: 5px; */
+    /* margin-right: 8px; */
+    margin: 0 auto;
+    padding: 8px;
     font-size: 1em;
     /* background: rgba(255, 0, 0, 0.1); */
     z-index: 500;
@@ -739,6 +726,19 @@ float: left;
 body {
     /*max-width: 620px;*/
     margin: 0 auto;
+}
+
+
+/*Mobile Landscape orientation overrides*/
+
+@media (orientation:landscape) {
+    .top {
+        background-image: url("images/trump_green_desktop.jpg");
+        background-size: 100%;
+        /*height: 95vh;*/
+        overflow: hidden;
+        /*margin-top: -180px;*/
+    }
 }
 
 
