@@ -680,7 +680,7 @@ background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    overflow-y: scroll;
+    overflow-y: hidden;
     backface-visibility: hidden;
 }
 
@@ -781,6 +781,19 @@ body {
     }
     .top_title {
         font-size: calc(4vw + 4vh + 2vmin);
+    }
+    .text_back.too_big {
+        font-size: 0.6em;
+        padding: 0px;
+        line-height: 0.695;
+    }
+    .not_too_big {
+        line-height: 1;
+    }
+    .text_back.too_big2 {
+        font-size: 0.8em;
+        padding: 0px;
+        line-height: 1.095;
     }
     #augustine {
         background-image: url("images/raugustine2.jpg");
